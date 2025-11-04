@@ -1,51 +1,42 @@
-# ======================
-# 🧠 Proyecto: Generador KML Cobertura
-# ======================
+# === Generador KML Cobertura ===
 
-# Entorno virtual
+# Entornos virtuales
 .venv/
 venv/
 env/
 ENV/
 
-# Archivos temporales de Python
+# Compilados y caché de Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.pyc
 
-# Archivos de log o cache
-*.log
-*.tmp
-*.cache
-*.bak
-
-# Configuración de VSCode / PyCharm
-.vscode/
+# Configuración de IDEs
 .idea/
+.vscode/
 
 # Archivos del sistema
 .DS_Store
 Thumbs.db
 desktop.ini
 
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.cache
+temp/
+tmp/
+
 # Archivos generados
 *.kml
 *.kmz
-
-# Archivos de entorno / credenciales (si en algún futuro se usan)
-.env
-config/credentials.json
-
-# Archivos de dependencias generados automáticamente
-requirements.txt.bak
-
-# Archivos de exportación o pruebas
 *.xlsx
 *.csv
 *.zip
 
-# Otros archivos temporales
-temp/
-tmp/
+# Archivos de entorno o credenciales
+.env
+config/credentials.json
+
