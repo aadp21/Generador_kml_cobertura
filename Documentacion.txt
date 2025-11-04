@@ -1,0 +1,20 @@
+Librerias
+pip install requests simplekml certifi
+pip install dataclasses-json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pip list
+pip install -r requirements.txt
